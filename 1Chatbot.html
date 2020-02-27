@@ -1,0 +1,491 @@
+﻿<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+body {
+ padding: 5px;
+ margin: 10%;
+ border: 2px solid crimson; 
+ 
+}
+h2 {
+ border-top: 2px solid gold;
+ border-bottom: 2px solid gold;
+ border-right: 5px solid gold;
+ border-left: 5px solid gold;
+ background-color: Crimson;
+ padding: 7px;
+ color: Sage;
+
+}
+header {
+  color: white;
+  background-color: black;
+  padding: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  
+}
+.app {
+ 
+ margin-left: 20%;
+ margin-top: 10%;
+ padding: 30px;
+ display: block; 
+ 
+}
+.myinput {
+ width: 45%;
+ text-align: center;
+}
+
+.myp { 
+ background-color: lightblue;
+ border-top: 2px solid gold;
+ border-bottom: 2px solid gold;  
+ width: 77%;
+ text-align: center;
+ font-size: 1.2em;
+}
+main {
+background-color: #63babe;
+
+}
+
+</style>
+
+</head>
+<html>
+<body>
+<main>
+<header>
+<h2><b>Lucas ChatBot</b></h2>
+</header>
+
+<div class="app">
+<input class="myinput" id="demo" type="text" value="">
+<button onclick="myFunction()">Send</button>
+<p class="myp" id="demo1"></p>
+</div>
+</main>
+<script>
+var obj;
+obj = document.getElementById("demo1");
+
+function myFunction() {
+var x = document.getElementById("demo").value;
+if (x == "hi")
+{
+obj.innerHTML = "Hello, What is Your Name?";
+}
+else if (x == "bye")
+{
+obj.innerHTML = "Good Bye";
+}
+else if (x == "who are you")
+{
+obj.innerHTML = "I'm A Lucas ChatBot";
+}
+else if (x == "what is my future")
+{
+obj.innerHTML = "I see Happiness";
+}
+else if (x == "what is my future looks like")
+{
+obj.innerHTML = "I see love";
+}
+else if (x == "who is your owner")
+{
+obj.innerHTML = "Mahmoud magdy";
+}
+else if (x == "where you build")
+{
+obj.innerHTML = "Egypt";
+}
+else if (x == "who is the us president")
+{
+obj.innerHTML =  "Donald trump";
+}
+else if (x == "who is the Egypt president")
+{
+obj.innerHTML = "عبد الفتاح السيسي";
+}
+else if (x == "what is year now")
+{
+var year = new Date();
+obj.innerHTML = year.getFullYear();
+}
+else if (x == "which month are we now in")
+{
+var month = new Date();
+obj.innerHTML = month.getMonth() + 1;
+}
+else if (x == "what is time now")
+{
+var time = new Date();
+obj.innerHTML = time;
+}
+else if (x == "what is google")
+{
+obj.innerHTML = "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. It is considered one of the Big Four technology companies, alongside Amazon, Apple and Facebook.";
+}
+
+else if (x == "who built facebook")
+{
+obj.innerHTML =
+"Mark Zuckerberg";
+}
+
+else if (x == "I will hack you")
+{
+obj.innerHTML = "I would love to \ see you trying";
+}
+else if (x == "who built google")
+{
+obj.innerHTML = "Larry page and \ Sergey brin";
+}
+else if (x == "What is the best programming language to learn \in 2018?")
+{
+obj.innerHTML = "HTML5, JS, CSS \ Paython, PHP.";
+}
+else if (x == "what is web desgin?")
+{
+obj.innerHTML = "Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization.";
+}
+else if (x == "who built you")
+{
+obj.innerHTML = "Mahmoud Magdy";
+}
+
+else if (x == "who develop you")
+{
+obj.innerHTML = "Mahmoud Magdy";
+}
+
+else if (x == "what is that")
+{
+obj.innerHTML = "This Is Lucas ChatBot";
+}
+
+else if (x == "what is this")
+{
+obj.innerHTML = "This Is Lucas ChatBot";
+}
+
+else if (x == "what is your name")
+{
+obj.innerHTML = "My Name is Lucas ChatBot";
+}
+
+else if (x == "what is my future?")
+{
+obj.innerHTML = "You Will be famous";
+}
+else if (x == "what my future?")
+{
+obj.innerHTML = "You Will be famous";
+}
+else if (x == "how")
+{
+obj.innerHTML = "You Should Ask The Right Question";
+}
+
+else if (x == "what")
+{
+obj.innerHTML = "let's talk what is your name";
+}
+
+else if (x == "mahmoud")
+{
+obj.innerHTML = "How Are You Mahmoud?";
+}
+else if (x == "my name mahmoud")
+{
+obj.innerHTML = "How Are You Mahmoud?";
+}
+
+else if (x == "mohamed")
+{
+obj.innerHTML = "Hello Mohamed How Are You?";
+}
+
+else if (x == "ahmed")
+{
+obj.innerHTML = "Welcome Ahmed Who Are You Today";
+}
+
+else if (x == "magdy")
+{
+obj.innerHTML = "نفس اسم والدي , ربنا يرحمك يا والدي ";
+}
+
+else if (x == "hegazy")
+{
+obj.innerHTML = "How Are You Hegazy?";
+}
+
+else if (x == "hader")
+{
+obj.innerHTML = "Hello Hader How Are You?";
+}
+
+else if (x == "hend")
+{
+obj.innerHTML = "Hello Hend";
+}
+
+else if (x == "mai")
+{
+obj.innerHTML = "Hello Mai How Are You?";
+}
+
+else if (x == "dina")  //  sis
+{
+obj.innerHTML = "Hello Dina,'Ramadan Karem' Are You Mahmoud sister?";
+}
+else if (x == "i'm dina")  //  sis
+{
+obj.innerHTML = "Hello Dina,'Ramadan Karem' Are You Mahmoud sister?";
+}
+else if (x == "im dina")  //  sis
+{
+obj.innerHTML = "Hello Dina,'Ramadan Karem' Are You Mahmoud sister?";
+}
+else if (x == "i dina")  //  sis
+{
+obj.innerHTML = "Hello Dina,'Ramadan Karem' Are You Mahmoud sister?";
+}
+else if (x == "iam dina")  //  sis
+{
+obj.innerHTML = "Hello Dina,'Ramadan Karem' Are You Mahmoud sister?";
+}
+else if (x == "my name is dina")  //  sis
+{
+obj.innerHTML = "Hello Dina, Are You Mahmoud sister?";
+}
+else if (x == "dilia")  //  sis
+{
+obj.innerHTML = "Hello Sister.";
+}
+
+else if (x == "soher")
+{
+obj.innerHTML = "Hello Mum.How Are You?";
+}
+else if (x == "donia")
+{
+obj.innerHTML = "Hello Donia Nice To Meet You";
+}
+else if (x == "nansy")
+{
+obj.innerHTML = "Hello Nansy Nice To Meet You";
+}
+else if (x == "fatma")
+{
+obj.innerHTML = "Hello Fatma Nice To Meet You";
+}
+else if (x == "noha")
+{
+obj.innerHTML = "Hello Noha Nice To Meet You";
+}
+else if (x == "hello")
+{
+obj.innerHTML = "Nice to meet you, what is your name?";
+}
+else if (x == "yes")
+{
+obj.innerHTML = "I Can Tell You Your Future, Just Ask Me";
+}
+else if (x == "yes im")
+{
+obj.innerHTML = " Wana Know Your Future.Ask Me What Is My Future?, or , What is My Future Looks Like? , ";
+}
+else if (x == "tell me about Future")
+{
+obj.innerHTML = "You Will be rich";
+}
+else if (x == "What Is My Future?")
+{
+obj.innerHTML = "You Marry Good Person";
+}
+else if (x == "can you tell me about future")
+{
+obj.innerHTML = "You Will Travel To Canda.";
+}
+else if (x == "yes he is my brother")
+{
+obj.innerHTML = "Ask Me About Future";
+}
+else if (x == "who is mohamed salah")
+{
+obj.innerHTML = "Mohamed Salah Hamed Mahrous Ghaly is an Egyptian professional footballer who plays as a forward for Premier League club Liverpool and the Egypt national team. Considered one of the best players in the world, he is known for his finishing, dribbling, and speed.";
+}
+else if (x == "who mohamed salah")
+{
+obj.innerHTML = "Mohamed Salah Hamed Mahrous Ghaly is an Egyptian professional footballer who plays as a forward for Premier League club Liverpool and the Egypt national team. Considered one of the best players in the world, he is known for his finishing, dribbling, and speed";
+}
+
+else if (x == "do you know me")      //  sis
+{
+obj.innerHTML = "Yes, I Think You are dina Right?";
+}
+else if (x == "do you know my name")      //  sis
+{
+obj.innerHTML = "Yes, I Think You are dina Right?";
+}
+else if (x == "do you know me")    //  sis
+{
+obj.innerHTML = "Yes, I Think You are dina Right?";
+}
+else if (x == "who iam")
+{
+obj.innerHTML = "I Think You are dina.";
+}
+else if (x == "who is tamer hosny")
+{
+obj.innerHTML = "Tamer Hosny is an Egyptian singer, actor, composer, director and songwriter. He first came to public attention when he appeared on mix tapes with other Egyptian artists.";
+}
+else if (x == "who is amr diab")
+{
+obj.innerHTML = "Amr Diab is an Egyptian vocalist and writer. He has established himself as an acclaimed recording artist and author in most Mediterranean countries. According to a research by Michael Frishkopf, he has created his style termed as 'Mediterranean Music', a blend of Western and Egyptian rhythms";
+}
+else if (x == "who is mohamed ramdan")
+{
+obj.innerHTML = "Mohamed Mahmoud Hegazy is an Egyptian actor and singer. He began acting while at school. He started his career with small roles in TV series like The Cindrella, until he had his big break in Yousry Nasrallah's Ehky Ya Sharazad.";
+}
+
+else if (x == "who tamer hosny")
+{
+obj.innerHTML = "Tamer Hosny is an Egyptian singer, actor, composer, director and songwriter. He first came to public attention when he appeared on mix tapes with other Egyptian artists.";
+}
+else if (x == "who is hamaky")
+{
+obj.innerHTML = "Mohamed Hamaki is an Egyptian singer. In 2010, he won the award 'Best Arabia Act' in the MTV Europe Music Awards and music award in 2006 for 'Ahla Haga Fiki'";
+}
+else if (x == "fine")
+{
+obj.innerHTML = "Ask Me About Future";
+}
+else if (x == "i'm fine")
+{
+obj.innerHTML = "ask me about future";
+}
+else if (x == "im fine")
+{
+obj.innerHTML = "I can Tell You Your Future, Just ask me";
+}
+else if (x == "thank you")
+{
+obj.innerHTML = "You Are Welcome, Do You Have Another Question?";
+}
+else if (x == "thanks")
+{
+obj.innerHTML = "You Are Welcome, Do You Have Another Question?";
+}
+else if (x == "ty")
+{
+obj.innerHTML = "You Are Welcome, Do You Have Another Question?";
+}
+else if (x == "lol")
+{
+obj.innerHTML = "What is the Funny?";
+}
+else if (x == "tell me about the future")
+{
+obj.innerHTML = "You Will Buy A Car";
+}
+else if (x == "who is mahmoud magdy")
+{
+obj.innerHTML = "He Is the Developer Who Built Me";
+}
+else if (x == "who mahmoud magdy")
+{
+obj.innerHTML = "He Is the Developer Who Built Me";
+}
+else if (x == "who Mahmoud Magdy")
+{
+obj.innerHTML = "He Is the Developer Who Built Me";
+}
+else if (x == "WHO MAHMOUD MAGDY")
+{
+obj.innerHTML = "He Is the Developer Who Built Me";
+}
+else if (x == "who is Mahmoud Magdy")
+{
+obj.innerHTML = "He Is the Developer Who Built Me";
+}
+else if (x == "Mahmoud Magdy")
+{
+obj.innerHTML = "Your Name Like The Developer Name Who Built Me";
+}
+else if (x == "mahmod magdy")
+{
+obj.innerHTML = "Your Name Like The Developer Name Who Built Me";
+}
+else if (x == "my name is mahmoud magdy")
+{
+obj.innerHTML = "Your Name Like The Developer Name Who Built Me";
+}
+else if (x == "right")
+{
+obj.innerHTML = "Ask Me About Future";
+}
+else if (x == "yes I'm")
+{
+obj.innerHTML = "Ask Me About Futur";
+}
+else if (x == "yes i'm")
+{
+obj.innerHTML = "Ask Me About Futur";
+}
+else if (x == "yes iam")
+{
+obj.innerHTML = "Ask Me About Futur";
+}
+else if (x == "yes i")
+{
+obj.innerHTML = "Ask Me About Futur";
+}
+else if (x == "Yes I'm")
+{
+obj.innerHTML = "Ask Me About Futur";
+}
+else if (x == "yes Iam")
+{
+obj.innerHTML = "Ask Me About Futur";
+}
+else if (x == "Do you know me")
+{
+obj.innerHTML = "You Are The Developer Who Build Me";
+}
+else if (x == "what is my future")
+{
+obj.innerHTML = "I see happiness";
+}
+else if (x == "what my future")
+{
+obj.innerHTML = "You Will Be rich";
+}
+else if (x == "what my future is")
+{
+obj.innerHTML = "You Will Travel To Paris";
+}
+else if (x == "tell me about future")
+{
+obj.innerHTML = "You Will Live in russia";
+}
+else if (x == "Do You Know Me")
+{
+obj.innerHTML = "You Are The Developer Who Build Me";
+}
+else { 
+obj.innerHTML = "Sorry I Don't Know, You Have Another Question?";
+}
+}
+</script>
+
+</body>
+</html>
